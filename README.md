@@ -184,3 +184,19 @@ dataset page for its license and citation before redistributing it.
 ## Roadmap
 
 Planned improvements are listed in [docs/ROADMAP.md](docs/ROADMAP.md).
+
+## Acknowledgments
+
+We sincerely thank all previous contributors for their work, ideas, and
+dedication to the project. This new optimized version also builds on the
+efforts and foundations of [**@Proyecto_Sl_2026I**](https://github.com/Juramirezlop/Proyecto_SI_2026I).
+We are grateful to every
+collaborator who has helped improve, test, document, and move the project
+forward.
+
+### Contributors
+
+- [![JhoanSFranco](https://avatars.githubusercontent.com/u/163791421?s=64&v=4)](https://github.com/JhoanSFranco) [**JhoanSFranco**](https://github.com/JhoanSFranco)
+- [![dany25-09](https://avatars.githubusercontent.com/u/140771809?s=64&v=4)](https://github.com/dany25-09) [**dany25-09**](https://github.com/dany25-09) — Carlos Daniel García Chaparro
+- [![Juramirezlop](https://avatars.githubusercontent.com/u/72463915?s=64&v=4)](https://github.com/Juramirezlop) [**Juramirezlop**](https://github.com/Juramirezlop) — Juan David Ramirez Lope
+- [![SebasIron-1992](https://avatars.githubusercontent.com/u/211875118?s=64&v=4)](https://github.com/SebasIron-1992) [**SebasIron-1992**](https://github.com/SebasIron-1992) — identified in the commit history as Sebastián
