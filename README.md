@@ -29,6 +29,41 @@ See the [model card](docs/MODEL_CARD.md) for details and limitations.
 - **Production-minded API**: typed schemas, versioned routes, upload limits, bounded session
   memory, safe checkpoint loading, health checks, Docker images.
 
+## Why several photos of the same avocado?
+
+The training photos were taken in a controlled setup: consistent background and lighting, with
+each fruit photographed from only two sides. New avocados will often be photographed in a
+different position, under different lighting or against a different background. With only one
+such photo, the model can "hallucinate": it returns a stage and a number of days that look
+plausible, sometimes with high confidence, even though they are wrong. A single image also shows
+only one side of the fruit, so dark spots or soft areas on the other side are never seen.
+
+For the most reliable prediction, take **3–4 photos of the same avocado from different
+positions** (rotate it, change the angle and, if possible, the lighting) and upload them in the
+same session. Each photo is an independent piece of evidence, so the fused result:
+
+- reduces the model's uncertainty (narrower confidence and a smaller ± in days),
+- averages out errors caused by one unusual angle, reflection or shadow,
+- warns you when the photos strongly disagree, which is a sign that at least one of them is
+  misleading and that the result should not be trusted yet.
+
+Avoid uploading near-identical photos: they add no new information and only make the fused
+prediction look more confident than it really is (see the [model card](docs/MODEL_CARD.md)).
+
+### Conclusion: the dataset is not enough for a general model
+
+Multiple photos reduce the problem, but they do not solve it. The dataset contains 478 avocados of
+a single variety (Hass), all photographed with the same setup. That is not enough variety for the
+model to generalize to every real-world situation, so even with several photos it can still
+return inaccurate results, especially for fruit, cameras, backgrounds or lighting that look
+very different from the training data. Treat each prediction as an **estimate to support a
+decision, not as a definitive answer**.
+
+A more general model would need a larger and more diverse dataset: photos from different
+devices, lighting conditions, backgrounds, origins and, ideally, other avocado varieties. The
+feedback that users send through the app (marking wrong predictions and giving the correct
+stage) is a first step toward collecting that data.
+
 ## User interface
 
 The web application lets users upload an avocado photo, review the ripeness
