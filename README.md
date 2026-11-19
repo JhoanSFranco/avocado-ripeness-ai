@@ -29,6 +29,24 @@ See the [model card](docs/MODEL_CARD.md) for details and limitations.
 - **Production-minded API**: typed schemas, versioned routes, upload limits, bounded session
   memory, safe checkpoint loading, health checks, Docker images.
 
+## User interface
+
+The web application lets users upload an avocado photo, review the ripeness
+prediction and uncertainty, combine multiple photos of the same avocado, and
+provide feedback on the result.
+
+### Upload and analysis
+
+![Avocado photo upload screen](docs/images/imagen1-UI.png)
+
+### Prediction result
+
+![Ripeness prediction result](docs/images/imagen2-UI.png)
+
+### Analysis history and multi-photo workflow
+
+![Analysis history and multi-photo workflow](docs/images/imagen3-UI.png)
+
 ## Architecture
 
 ```text
