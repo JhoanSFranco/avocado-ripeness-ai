@@ -205,10 +205,10 @@ Planned improvements are listed in [docs/ROADMAP.md](docs/ROADMAP.md).
 
 ## Acknowledgments
 
-We sincerely thank all previous contributors for their work, ideas, and
+I sincerely thank all previous contributors for their work, ideas, and
 dedication to the project. This new optimized version also builds on the
 efforts and foundations of [**@Proyecto_Sl_2026I**](https://github.com/Juramirezlop/Proyecto_SI_2026I).
-We are grateful to every
+I am grateful that every
 collaborator who has helped improve, test, document, and move the project
 forward.
 
