@@ -1,0 +1,8 @@
+{
+  "short_name": "Avocado AI",
+  "name": "Avocado Ripeness AI",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1a7a4a",
+  "background_color": "#0a120c"
+}

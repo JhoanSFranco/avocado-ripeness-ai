@@ -1,0 +1,25 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/api.Dockerfile
+    container_name: avocado-api
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./models:/app/models:ro          # trained checkpoint (read-only)
+      - ./data/feedback:/app/data/feedback  # persisted user feedback
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./frontend
+    container_name: avocado-web
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+    restart: unless-stopped
