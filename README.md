@@ -199,4 +199,4 @@ forward.
 - [![JhoanSFranco](https://avatars.githubusercontent.com/u/163791421?s=64&v=4)](https://github.com/JhoanSFranco) [**JhoanSFranco**](https://github.com/JhoanSFranco)
 - [![dany25-09](https://avatars.githubusercontent.com/u/140771809?s=64&v=4)](https://github.com/dany25-09) [**dany25-09**](https://github.com/dany25-09) — Carlos Daniel García Chaparro
 - [![Juramirezlop](https://avatars.githubusercontent.com/u/72463915?s=64&v=4)](https://github.com/Juramirezlop) [**Juramirezlop**](https://github.com/Juramirezlop) — Juan David Ramirez Lope
-- [![SebasIron-1992](https://avatars.githubusercontent.com/u/211875118?s=64&v=4)](https://github.com/SebasIron-1992) [**SebasIron-1992**](https://github.com/SebasIron-1992) — identified in the commit history as Sebastián
+- [![SebasIron-1992](https://avatars.githubusercontent.com/u/211875118?s=64&v=4)](https://github.com/SebasIron-1992) [**SebasIron-1992**](https://github.com/SebasIron-1992) — Sebastian 
